@@ -68,6 +68,10 @@ latest_posts:
     margin-bottom: 2rem;
   }
 
+  .experience-section {
+    clear: both;
+  }
+
   .entry-title {
     font-size: 1.08rem;
     font-weight: 600;
@@ -144,7 +148,7 @@ latest_posts:
     <a href="https://ami.kaist.ac.kr/">Advanced Machine Intelligence Lab (AMI Lab)</a>, advised by
     <a href="https://pure.kaist.ac.kr/en/persons/tae-hyun-oh/">Prof. Tae-Hyun Oh</a>.
   </p>
-  <p>I am interested in multimodal perception.</p>
+  <p>I am interested in AI agents, vision-language models, and multimodal perception.</p>
 </div>
 
 <div class="intro-socials" aria-label="Contact links">
@@ -153,7 +157,7 @@ latest_posts:
   <a href="https://www.linkedin.com/in/daisyson01/" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
 </div>
 
-<section class="about-section">
+<section class="about-section experience-section">
   <h2>Experience</h2>
   <div class="profile-entry">
     <div class="entry-title">KT</div>
