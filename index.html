@@ -5,6 +5,16 @@
 </style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%A6%96&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://fooooty.github.io/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
     initTheme();
   </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item active"> <a class="nav-link" href="/">about <span class="sr-only">(current)</span> </a> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title"> <span class="font-weight-bold">Jiyeon</span> Son </h1> <p class="desc">M.S. Student at <a href="https://ami.kaist.ac.kr/" rel="external nofollow noopener" target="_blank">AMI Lab, KAIST</a></p> </header> <article> <div class="profile float-right"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/jiyeon-son-480.webp 480w,/assets/img/jiyeon-son-800.webp 800w,/assets/img/jiyeon-son-1400.webp 1400w," type="image/webp" sizes="(min-width: 930px) 270.0px, (min-width: 576px) 30vw, 95vw"> <img src="/assets/img/jiyeon-son.jpeg?v=54a0d9e752aa287d64ff0a8a489af4ad" class="img-fluid z-depth-1 rounded" width="100%" height="auto" alt="jiyeon-son.jpeg" loading="eager" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </source></picture> </figure> </div> <div class="clearfix"> <style>
+  body {
+    --global-theme-color: #176b87;
+    --global-hover-color: #0f5268;
+  }
+
+  html[data-theme="dark"] body {
+    --global-theme-color: #63b6c9;
+    --global-hover-color: #8acddd;
+  }
+
   .post-title {
     font-weight: 700;
   }
@@ -78,6 +88,37 @@
     line-height: 1.6;
   }
 
+  .venue-line {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.65rem;
+  }
+
+  .venue-badge {
+    background: color-mix(in srgb, var(--global-theme-color) 14%, transparent);
+    border: 1px solid color-mix(in srgb, var(--global-theme-color) 35%, transparent);
+    border-radius: 999px;
+    color: var(--global-theme-color);
+    font-size: 0.92rem;
+    font-weight: 700;
+    padding: 0.28rem 0.7rem;
+  }
+
+  .venue-type {
+    color: var(--global-text-color-light);
+    font-size: 0.92rem;
+    font-weight: 600;
+  }
+
+  .workshop-name {
+    color: var(--global-text-color-light);
+    font-size: 0.92rem;
+    line-height: 1.5;
+    margin-top: 0.55rem;
+  }
+
   .publication-group {
     margin-top: 2rem;
   }
@@ -118,7 +159,7 @@
       navigation.insertBefore(item, themeToggle);
     });
   });
-</script> <div class="about-intro"> <p> I am an M.S. student in Computer Science at KAIST and a member of the <a href="https://ami.kaist.ac.kr/" rel="external nofollow noopener" target="_blank">Advanced Machine Intelligence Lab (AMI Lab)</a>, advised by <a href="https://pure.kaist.ac.kr/en/persons/tae-hyun-oh/" rel="external nofollow noopener" target="_blank">Prof. Tae-Hyun Oh</a>. </p> <p>I am interested in AI agents, vision-language models, and multimodal perception.</p> </div> <div class="intro-socials" aria-label="Contact links"> <a href="mailto:daiisy7@kaist.ac.kr" aria-label="Email" title="Email"><i class="fa-solid fa-envelope"></i></a> <a href="https://github.com/fooooty" aria-label="GitHub" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i></a> <a href="https://www.linkedin.com/in/daisyson01/" aria-label="LinkedIn" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-linkedin"></i></a> </div> <section class="about-section experience-section"> <h2>Experience</h2> <div class="profile-entry"> <div class="entry-title">KT</div> <div class="entry-role">AI Research Intern</div> <div class="entry-meta">July 2026 – August 2026 · Seoul, South Korea</div> </div> </section> <section class="about-section"> <h2>Education</h2> <div class="profile-entry"> <div class="entry-title">Korea Advanced Institute of Science and Technology (KAIST)</div> <div class="entry-role">M.S. in Computer Science · <a href="https://ami.kaist.ac.kr/" rel="external nofollow noopener" target="_blank">Advanced Machine Intelligence Lab</a> </div> <div class="entry-meta">September 2025 – August 2027 (expected)</div> </div> <div class="profile-entry"> <div class="entry-title">Hanyang University</div> <div class="entry-role">B.S. in Materials Science and Engineering</div> <div class="entry-meta">February 2020 – August 2025</div> </div> </section> <section class="about-section" id="publications"> <h2>Publications</h2> <div class="entry-meta">* Equal contribution</div> <div class="publication-group"> <h3>Conference Papers</h3> <div class="publication-entry"> <div class="entry-title"><a href="/projects/igg/">IGG: A Benchmark for Interactive GUI Grounding under Visibility Constraints</a></div> <div class="entry-authors"> <a class="author-link" href="https://www.linkedin.com/in/ks-kim/" rel="external nofollow noopener" target="_blank">Kyeongseon Kim*</a>, <strong>Jiyeon Son*</strong>, Tae-Hyun Oh</div> <div class="entry-meta">EMNLP 2026 · Main Conference</div> </div> </div> <div class="publication-group"> <h3>Workshop Papers</h3> <div class="publication-entry"> <div class="entry-title"><a href="https://openreview.net/pdf/879ebea95a8b126a2c27d04cd7567b9d4b2019f1.pdf" rel="external nofollow noopener" target="_blank">Spatially Stable GUI Grounding via Zoom Consistency Loss</a></div> <div class="entry-authors">Ye-Bin Moon, <strong>Jiyeon Son</strong>, Tae-Hyun Oh</div> <div class="entry-meta">2nd Workshop on Compositional Learning: Safety, Interpretability, and Agents · ICML 2026</div> </div> </div> </section> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Jiyeon Son. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
+</script> <div class="about-intro"> <p> I am an M.S. student in Computer Science at KAIST and a member of the <a href="https://ami.kaist.ac.kr/" rel="external nofollow noopener" target="_blank">Advanced Machine Intelligence Lab (AMI Lab)</a>, advised by <a href="https://pure.kaist.ac.kr/en/persons/tae-hyun-oh/" rel="external nofollow noopener" target="_blank">Prof. Tae-Hyun Oh</a>. </p> <p>I am interested in AI agents, vision-language models, and multimodal perception.</p> </div> <div class="intro-socials" aria-label="Contact links"> <a href="mailto:daiisy7@kaist.ac.kr" aria-label="Email" title="Email"><i class="fa-solid fa-envelope"></i></a> <a href="https://github.com/fooooty" aria-label="GitHub" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i></a> <a href="https://www.linkedin.com/in/daisyson01/" aria-label="LinkedIn" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-linkedin"></i></a> </div> <section class="about-section experience-section"> <h2>Experience</h2> <div class="profile-entry"> <div class="entry-title">KT</div> <div class="entry-role">AI Research Intern</div> <div class="entry-meta">July 2026 – August 2026 · Seoul, South Korea</div> </div> </section> <section class="about-section"> <h2>Education</h2> <div class="profile-entry"> <div class="entry-title">Korea Advanced Institute of Science and Technology (KAIST)</div> <div class="entry-role">M.S. in Computer Science · <a href="https://ami.kaist.ac.kr/" rel="external nofollow noopener" target="_blank">Advanced Machine Intelligence Lab</a> </div> <div class="entry-meta">September 2025 – August 2027 (expected)</div> </div> <div class="profile-entry"> <div class="entry-title">Hanyang University</div> <div class="entry-role">B.S. in Materials Science and Engineering</div> <div class="entry-meta">February 2020 – August 2025</div> </div> </section> <section class="about-section" id="publications"> <h2>Publications</h2> <div class="entry-meta">* Equal contribution</div> <div class="publication-group"> <h3>Conference Papers</h3> <div class="publication-entry"> <div class="entry-title"><a href="/projects/igg/">IGG: A Benchmark for Interactive GUI Grounding under Visibility Constraints</a></div> <div class="entry-authors"> <a class="author-link" href="https://www.linkedin.com/in/ks-kim/" rel="external nofollow noopener" target="_blank">Kyeongseon Kim*</a>, <strong>Jiyeon Son*</strong>, Tae-Hyun Oh</div> <div class="venue-line"> <span class="venue-badge">EMNLP 2026</span><span class="venue-type">Main Conference</span> </div> </div> </div> <div class="publication-group"> <h3>Workshop Papers</h3> <div class="publication-entry"> <div class="entry-title"><a href="https://openreview.net/pdf/879ebea95a8b126a2c27d04cd7567b9d4b2019f1.pdf" rel="external nofollow noopener" target="_blank">Spatially Stable GUI Grounding via Zoom Consistency Loss</a></div> <div class="entry-authors">Ye-Bin Moon, <strong>Jiyeon Son</strong>, Tae-Hyun Oh</div> <div class="venue-line"><span class="venue-badge">ICML 2026 Workshop</span></div> <div class="workshop-name">2nd Workshop on Compositional Learning: Safety, Interpretability, and Agents</div> </div> </div> </section> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Jiyeon Son. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
