@@ -140,13 +140,11 @@ latest_posts:
 
 <div class="about-intro">
   <p>
-    I am an M.S. student in Computer Science at KAIST, where I work on AI agents and multimodal perception in the
+    I am an M.S. student in Computer Science at KAIST and a member of the
     <a href="https://ami.kaist.ac.kr/">Advanced Machine Intelligence Lab (AMI Lab)</a>, advised by
     <a href="https://pure.kaist.ac.kr/en/persons/tae-hyun-oh/">Prof. Tae-Hyun Oh</a>.
   </p>
-  <p>
-    I am interested in AI agents, vision-language models, computer vision, and multimodal learning. My research focuses on enabling intelligent agents to understand visual context and interact reliably with complex real-world interfaces.
-  </p>
+  <p>I am interested in multimodal perception.</p>
 </div>
 
 <div class="intro-socials" aria-label="Contact links">
@@ -185,7 +183,7 @@ latest_posts:
   <div class="publication-group">
     <h3>Conference Papers</h3>
     <div class="publication-entry">
-      <div class="entry-title"><a href="https://ami.kaist.ac.kr/3c4fdae6-c854-8000-8995-c8b5de4ac4db">IGG: A Benchmark for Interactive GUI Grounding under Visibility Constraints</a></div>
+      <div class="entry-title"><a href="{{ '/projects/igg/' | relative_url }}">IGG: A Benchmark for Interactive GUI Grounding under Visibility Constraints</a></div>
       <div class="entry-authors"><a class="author-link" href="https://www.linkedin.com/in/ks-kim/">Kyeongseon Kim*</a>, <strong>Jiyeon Son*</strong>, Tae-Hyun Oh</div>
       <div class="entry-meta">EMNLP 2026 · Main Conference</div>
     </div>
