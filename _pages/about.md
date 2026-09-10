@@ -11,7 +11,7 @@ profile:
   more_info:
 
 selected_papers: false
-social: true # includes social icons at the bottom of the page
+social: false # social links are placed directly below the introduction
 
 announcements:
   enabled: false
@@ -24,40 +24,154 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-## Research Interests
+<style>
+  .about-intro {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin: 0 0 1.25rem;
+  }
 
-- AI Agents
-- Vision-Language Models (VLMs)
+  .intro-socials {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0 3rem;
+  }
 
-## Experience
+  .intro-socials a {
+    color: var(--global-text-color);
+    font-size: 1.35rem;
+    transition: color 0.2s ease, transform 0.2s ease;
+  }
 
-**KT** — AI Research Intern<br>
-July 2026 – August 2026 · Seoul, South Korea · Hybrid
+  .intro-socials a:hover {
+    color: var(--global-theme-color);
+    transform: translateY(-2px);
+  }
 
-- Worked on multi-agent collaboration.
+  .about-section {
+    margin-top: 3rem;
+  }
 
-## Education
+  .about-section > h2 {
+    border-bottom: 1px solid var(--global-divider-color);
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.65rem;
+  }
 
-**Korea Advanced Institute of Science and Technology (KAIST)**<br>
-M.S. in Computer Science, [Advanced Machine Intelligence Lab](https://ami.kaist.ac.kr/)<br>
-September 2025 – August 2027 (expected)
+  .interest-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
 
-**Hanyang University**<br>
-B.S. in Materials Science and Engineering<br>
-February 2020 – August 2025
+  .interest-list li {
+    background: var(--global-code-bg-color);
+    border-radius: 999px;
+    padding: 0.45rem 0.85rem;
+  }
 
-## Publications
+  .profile-entry,
+  .publication-entry {
+    margin-bottom: 2rem;
+  }
 
-\* Equal contribution
+  .entry-title {
+    font-size: 1.08rem;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 0.35rem;
+  }
 
-### Conference Papers
+  .entry-role,
+  .entry-authors {
+    line-height: 1.65;
+    margin-bottom: 0.25rem;
+  }
 
-**[IGG: A Benchmark for Interactive GUI Grounding under Visibility Constraints](https://ami.kaist.ac.kr/3c4fdae6-c854-8000-8995-c8b5de4ac4db)**<br>
-Kyeongseon Kim\*, **Jiyeon Son\***, Tae-Hyun Oh<br>
-EMNLP 2026 · Main Conference
+  .entry-meta {
+    color: var(--global-text-color-light);
+    line-height: 1.6;
+  }
 
-### Workshop Papers
+  .publication-group {
+    margin-top: 2rem;
+  }
 
-**[Spatially Stable GUI Grounding via Zoom Consistency Loss](https://openreview.net/pdf/879ebea95a8b126a2c27d04cd7567b9d4b2019f1.pdf)**<br>
-Ye-Bin Moon (POSTECH), **Jiyeon Son (KAIST)**, Tae-Hyun Oh (KAIST)<br>
-2nd Workshop on Compositional Learning: Safety, Interpretability, and Agents · ICML 2026
+  .publication-group h3 {
+    font-size: 1.05rem;
+    margin-bottom: 1.25rem;
+  }
+</style>
+
+<div class="about-intro">
+  <p>
+    I am an M.S. student in Computer Science at KAIST, working in the
+    <a href="https://ami.kaist.ac.kr/">Advanced Machine Intelligence Lab (AMI Lab)</a>.
+  </p>
+  <p>
+    I am interested in AI agents and vision-language models. My research aims to build agents that can reliably perceive, reason about, and interact with complex visual environments. I approach this through interactive GUI grounding, robust spatial understanding, and efficient learning methods for multimodal agents. I am excited to explore how intelligent agents can better understand visual context and take reliable actions in real-world interfaces.
+  </p>
+</div>
+
+<div class="intro-socials" aria-label="Contact links">
+  <a href="mailto:daiisy7@kaist.ac.kr" aria-label="Email" title="Email"><i class="fa-solid fa-envelope"></i></a>
+  <a href="https://github.com/fooooty" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/daisyson01/" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+</div>
+
+<section class="about-section">
+  <h2>Research Interests</h2>
+  <ul class="interest-list">
+    <li>AI Agents</li>
+    <li>Vision-Language Models (VLMs)</li>
+  </ul>
+</section>
+
+<section class="about-section">
+  <h2>Experience</h2>
+  <div class="profile-entry">
+    <div class="entry-title">KT</div>
+    <div class="entry-role">AI Research Intern · Multi-Agent Collaboration</div>
+    <div class="entry-meta">July 2026 – August 2026 · Seoul, South Korea · Hybrid</div>
+  </div>
+</section>
+
+<section class="about-section">
+  <h2>Education</h2>
+  <div class="profile-entry">
+    <div class="entry-title">Korea Advanced Institute of Science and Technology (KAIST)</div>
+    <div class="entry-role">M.S. in Computer Science · <a href="https://ami.kaist.ac.kr/">Advanced Machine Intelligence Lab</a></div>
+    <div class="entry-meta">September 2025 – August 2027 (expected)</div>
+  </div>
+  <div class="profile-entry">
+    <div class="entry-title">Hanyang University</div>
+    <div class="entry-role">B.S. in Materials Science and Engineering</div>
+    <div class="entry-meta">February 2020 – August 2025</div>
+  </div>
+</section>
+
+<section class="about-section">
+  <h2>Publications</h2>
+  <div class="entry-meta">* Equal contribution</div>
+
+  <div class="publication-group">
+    <h3>Conference Papers</h3>
+    <div class="publication-entry">
+      <div class="entry-title"><a href="https://ami.kaist.ac.kr/3c4fdae6-c854-8000-8995-c8b5de4ac4db">IGG: A Benchmark for Interactive GUI Grounding under Visibility Constraints</a></div>
+      <div class="entry-authors">Kyeongseon Kim*, <strong>Jiyeon Son*</strong>, Tae-Hyun Oh</div>
+      <div class="entry-meta">EMNLP 2026 · Main Conference</div>
+    </div>
+  </div>
+
+  <div class="publication-group">
+    <h3>Workshop Papers</h3>
+    <div class="publication-entry">
+      <div class="entry-title"><a href="https://openreview.net/pdf/879ebea95a8b126a2c27d04cd7567b9d4b2019f1.pdf">Spatially Stable GUI Grounding via Zoom Consistency Loss</a></div>
+      <div class="entry-authors">Ye-Bin Moon (POSTECH), <strong>Jiyeon Son (KAIST)</strong>, Tae-Hyun Oh (KAIST)</div>
+      <div class="entry-meta">2nd Workshop on Compositional Learning: Safety, Interpretability, and Agents · ICML 2026</div>
+    </div>
+  </div>
+</section>
