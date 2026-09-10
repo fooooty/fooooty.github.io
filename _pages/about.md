@@ -46,4 +46,20 @@ September 2025 – August 2027 (expected)
 B.S. in Materials Science and Engineering<br>
 February 2020 – August 2025
 
+## Publications
+
+\* Equal contribution
+
+### Conference Papers
+
+**[IGG: A Benchmark for Interactive GUI Grounding under Visibility Constraints](https://ami.kaist.ac.kr/3c4fdae6-c854-8000-8995-c8b5de4ac4db)**<br>
+Kyeongseon Kim\*, **Jiyeon Son\***, Tae-Hyun Oh<br>
+EMNLP 2026 · Main Conference
+
+### Workshop Papers
+
+**[Spatially Stable GUI Grounding via Zoom Consistency Loss](https://openreview.net/pdf/879ebea95a8b126a2c27d04cd7567b9d4b2019f1.pdf)**<br>
+Ye-Bin Moon (POSTECH), **Jiyeon Son (KAIST)**, Tae-Hyun Oh (KAIST)<br>
+2nd Workshop on Compositional Learning: Safety, Interpretability, and Agents · ICML 2026
+
 For a complete academic and professional history, please visit my [LinkedIn profile](https://www.linkedin.com/in/daisyson01/).
