@@ -165,7 +165,7 @@ latest_posts:
     <h3>Conference Papers</h3>
     <div class="publication-entry">
       <div class="entry-title"><a href="https://ami.kaist.ac.kr/3c4fdae6-c854-8000-8995-c8b5de4ac4db">IGG: A Benchmark for Interactive GUI Grounding under Visibility Constraints</a></div>
-      <div class="entry-authors">Kyeongseon Kim*, <strong>Jiyeon Son*</strong>, Tae-Hyun Oh</div>
+      <div class="entry-authors"><a href="https://www.linkedin.com/in/ks-kim/">Kyeongseon Kim*</a>, <strong>Jiyeon Son*</strong>, Tae-Hyun Oh</div>
       <div class="entry-meta">EMNLP 2026 · Main Conference</div>
     </div>
   </div>
