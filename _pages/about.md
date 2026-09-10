@@ -25,6 +25,10 @@ latest_posts:
 ---
 
 <style>
+  .post-title {
+    font-weight: 700;
+  }
+
   .about-intro {
     font-size: 1.05rem;
     line-height: 1.8;
