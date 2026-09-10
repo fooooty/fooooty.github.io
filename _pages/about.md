@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.S. Student at <a href="https://ami.kaist.ac.kr/">AMI Lab, KAIST</a>
+subtitle: M.S. Student at AMI Lab, KAIST
 
 profile:
   align: right
@@ -203,7 +203,7 @@ latest_posts:
   <h2>Education</h2>
   <div class="profile-entry">
     <div class="entry-title">Korea Advanced Institute of Science and Technology (KAIST)</div>
-    <div class="entry-role">M.S. in Computer Science · <a href="https://ami.kaist.ac.kr/">Advanced Machine Intelligence Lab</a></div>
+    <div class="entry-role">M.S. in Computer Science · Advanced Machine Intelligence Lab</div>
     <div class="entry-meta">September 2025 – August 2027 (expected)</div>
   </div>
   <div class="profile-entry">
