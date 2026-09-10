@@ -138,8 +138,8 @@ latest_posts:
   <h2>Experience</h2>
   <div class="profile-entry">
     <div class="entry-title">KT</div>
-    <div class="entry-role">AI Research Intern · Multi-Agent Collaboration</div>
-    <div class="entry-meta">July 2026 – August 2026 · Seoul, South Korea · Hybrid</div>
+    <div class="entry-role">AI Research Intern</div>
+    <div class="entry-meta">July 2026 – August 2026 · Seoul, South Korea</div>
   </div>
 </section>
 
