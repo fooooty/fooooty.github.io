@@ -30,6 +30,12 @@ latest_posts:
     --global-hover-color: #0f5268;
   }
 
+  @media (min-width: 576px) {
+    .profile.float-right {
+      margin-top: -1.25rem;
+    }
+  }
+
   html[data-theme="dark"] body {
     --global-theme-color: #63b6c9;
     --global-hover-color: #8acddd;
@@ -132,7 +138,7 @@ latest_posts:
     font-weight: 600;
   }
 
-  .workshop-name {
+  .venue-name {
     color: var(--global-text-color-light);
     font-size: 0.92rem;
     line-height: 1.5;
@@ -189,7 +195,7 @@ latest_posts:
     <a href="https://ami.kaist.ac.kr/">Advanced Machine Intelligence Lab (AMI Lab)</a>, advised by
     <a href="https://pure.kaist.ac.kr/en/persons/tae-hyun-oh/">Prof. Tae-Hyun Oh</a>.
   </p>
-  <p>I am interested in AI agents, vision-language models, and multimodal perception.</p>
+  <p>I am interested in AI agents, vision-language models, and multimodal perception. I am always open to conversations and collaborations—feel free to get in touch.</p>
 </div>
 
 <div class="intro-socials" aria-label="Contact links">
@@ -239,8 +245,7 @@ latest_posts:
     <div class="publication-entry">
       <div class="entry-title"><a href="https://openreview.net/pdf/879ebea95a8b126a2c27d04cd7567b9d4b2019f1.pdf">Spatially Stable GUI Grounding via Zoom Consistency Loss</a></div>
       <div class="entry-authors">Ye-Bin Moon, <strong>Jiyeon Son</strong>, Tae-Hyun Oh</div>
-      <div class="venue-line"><span class="venue-badge">ICML 2026 Workshop</span></div>
-      <div class="workshop-name">2nd Workshop on Compositional Learning: Safety, Interpretability, and Agents</div>
+      <div class="venue-line"><span class="venue-badge">ICML 2026 Workshop</span><span class="venue-name">Compositional Learning: Safety, Interpretability, and Agents</span></div>
     </div>
   </div>
 </section>

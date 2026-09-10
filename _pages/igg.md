@@ -10,7 +10,7 @@ nav: false
 **Kyeongseon Kim\*, Jiyeon Son\*, Tae-Hyun Oh**  
 EMNLP 2026 · Main Conference
 
-> Project page coming soon.
+*Project page coming soon.*
 
 We are preparing the paper, code, dataset, and additional project materials. Please check back soon for updates.
 
