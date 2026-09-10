@@ -54,6 +54,7 @@ latest_posts:
 
   .about-section {
     margin-top: 3rem;
+    scroll-margin-top: 5rem;
   }
 
   .about-section > h2 {
@@ -110,6 +111,37 @@ latest_posts:
   }
 </style>
 
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const navigation = document.querySelector("#navbarNav .navbar-menu-list");
+    if (!navigation || navigation.querySelector("[data-profile-shortcut]")) return;
+
+    const themeToggle = navigation.querySelector(".toggle-container");
+    const shortcuts = [
+      { label: "Publications", href: "{{ '/' | relative_url }}#publications" },
+      { label: "CV", href: "{{ '/assets/pdf/Jiyeon_Son_CV.pdf' | relative_url }}", newTab: true },
+    ];
+
+    shortcuts.forEach(({ label, href, newTab }) => {
+      const item = document.createElement("li");
+      item.className = "nav-item";
+      item.dataset.profileShortcut = label.toLowerCase();
+
+      const link = document.createElement("a");
+      link.className = "nav-link";
+      link.href = href;
+      link.textContent = label;
+      if (newTab) {
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+      }
+
+      item.appendChild(link);
+      navigation.insertBefore(item, themeToggle);
+    });
+  });
+</script>
+
 <div class="about-intro">
   <p>
     I am an M.S. student in Computer Science at KAIST, working in the
@@ -157,7 +189,7 @@ latest_posts:
   </div>
 </section>
 
-<section class="about-section">
+<section class="about-section" id="publications">
   <h2>Publications</h2>
   <div class="entry-meta">* Equal contribution</div>
 
