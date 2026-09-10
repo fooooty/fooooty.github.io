@@ -32,7 +32,7 @@ latest_posts:
 
   @media (min-width: 576px) {
     .profile.float-right {
-      margin-top: -1.25rem;
+      margin-top: -4rem;
     }
   }
 
@@ -115,32 +115,14 @@ latest_posts:
   }
 
   .venue-line {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
+    color: var(--global-theme-color);
+    font-size: 0.95rem;
+    font-weight: 700;
     margin-top: 0.65rem;
   }
 
-  .venue-badge {
-    background: color-mix(in srgb, var(--global-theme-color) 14%, transparent);
-    border: 1px solid color-mix(in srgb, var(--global-theme-color) 35%, transparent);
-    border-radius: 999px;
-    color: var(--global-theme-color);
-    font-size: 0.92rem;
-    font-weight: 700;
-    padding: 0.28rem 0.7rem;
-  }
-
-  .venue-type {
-    color: var(--global-text-color-light);
-    font-size: 0.92rem;
-    font-weight: 600;
-  }
-
   .venue-name {
-    color: var(--global-text-color-light);
-    font-size: 0.92rem;
+    color: inherit;
     line-height: 1.5;
     margin-top: 0.55rem;
   }
@@ -192,10 +174,14 @@ latest_posts:
 <div class="about-intro">
   <p>
     I am an M.S. student in Computer Science at KAIST and a member of the
-    <a href="https://ami.kaist.ac.kr/">Advanced Machine Intelligence Lab (AMI Lab)</a>, advised by
-    <a href="https://pure.kaist.ac.kr/en/persons/tae-hyun-oh/">Prof. Tae-Hyun Oh</a>.
+    <a href="https://ami.kaist.ac.kr/">Advanced Machine Intelligence Lab (AMI Lab)</a>.
   </p>
-  <p>I am interested in AI agents, vision-language models, and multimodal perception. I am always open to conversations and collaborations—feel free to get in touch.</p>
+  <p>
+    I am advised by <a href="https://pure.kaist.ac.kr/en/persons/tae-hyun-oh/">Prof. Tae-Hyun Oh</a>.
+  </p>
+  <p>
+    I am interested in AI agents, vision-language models, and multimodal perception. I am always open to conversations and collaborations—feel free to get in touch.
+  </p>
 </div>
 
 <div class="intro-socials" aria-label="Contact links">
@@ -236,7 +222,7 @@ latest_posts:
     <div class="publication-entry">
       <div class="entry-title"><a href="{{ '/projects/igg/' | relative_url }}">IGG: A Benchmark for Interactive GUI Grounding under Visibility Constraints</a></div>
       <div class="entry-authors"><a class="author-link" href="https://www.linkedin.com/in/ks-kim/">Kyeongseon Kim*</a>, <strong>Jiyeon Son*</strong>, Tae-Hyun Oh</div>
-      <div class="venue-line"><span class="venue-badge">EMNLP 2026</span><span class="venue-type">Main Conference</span></div>
+      <div class="venue-line"><span class="venue-name">EMNLP 2026 · Main Conference</span></div>
     </div>
   </div>
 
@@ -245,7 +231,7 @@ latest_posts:
     <div class="publication-entry">
       <div class="entry-title"><a href="https://openreview.net/pdf/879ebea95a8b126a2c27d04cd7567b9d4b2019f1.pdf">Spatially Stable GUI Grounding via Zoom Consistency Loss</a></div>
       <div class="entry-authors">Ye-Bin Moon, <strong>Jiyeon Son</strong>, Tae-Hyun Oh</div>
-      <div class="venue-line"><span class="venue-badge">ICML 2026 Workshop</span><span class="venue-name">Compositional Learning: Safety, Interpretability, and Agents</span></div>
+      <div class="venue-line"><span class="venue-name">2nd Workshop on Compositional Learning: Safety, Interpretability, and Agents · ICML 2026</span></div>
     </div>
   </div>
 </section>
