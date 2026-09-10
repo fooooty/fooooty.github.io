@@ -96,6 +96,14 @@ latest_posts:
     margin-bottom: 0.25rem;
   }
 
+  .entry-authors .author-link {
+    color: var(--global-text-color);
+  }
+
+  .entry-authors .author-link:hover {
+    color: var(--global-theme-color);
+  }
+
   .entry-meta {
     color: var(--global-text-color-light);
     line-height: 1.6;
@@ -106,8 +114,11 @@ latest_posts:
   }
 
   .publication-group h3 {
-    font-size: 1.05rem;
-    margin-bottom: 1.25rem;
+    border-left: 4px solid var(--global-theme-color);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1.4rem;
+    padding: 0.2rem 0 0.2rem 0.75rem;
   }
 </style>
 
@@ -197,7 +208,7 @@ latest_posts:
     <h3>Conference Papers</h3>
     <div class="publication-entry">
       <div class="entry-title"><a href="https://ami.kaist.ac.kr/3c4fdae6-c854-8000-8995-c8b5de4ac4db">IGG: A Benchmark for Interactive GUI Grounding under Visibility Constraints</a></div>
-      <div class="entry-authors"><a href="https://www.linkedin.com/in/ks-kim/">Kyeongseon Kim*</a>, <strong>Jiyeon Son*</strong>, Tae-Hyun Oh</div>
+      <div class="entry-authors"><a class="author-link" href="https://www.linkedin.com/in/ks-kim/">Kyeongseon Kim*</a>, <strong>Jiyeon Son*</strong>, Tae-Hyun Oh</div>
       <div class="entry-meta">EMNLP 2026 · Main Conference</div>
     </div>
   </div>
@@ -206,7 +217,7 @@ latest_posts:
     <h3>Workshop Papers</h3>
     <div class="publication-entry">
       <div class="entry-title"><a href="https://openreview.net/pdf/879ebea95a8b126a2c27d04cd7567b9d4b2019f1.pdf">Spatially Stable GUI Grounding via Zoom Consistency Loss</a></div>
-      <div class="entry-authors">Ye-Bin Moon (POSTECH), <strong>Jiyeon Son (KAIST)</strong>, Tae-Hyun Oh (KAIST)</div>
+      <div class="entry-authors">Ye-Bin Moon, <strong>Jiyeon Son</strong>, Tae-Hyun Oh</div>
       <div class="entry-meta">2nd Workshop on Compositional Learning: Safety, Interpretability, and Agents · ICML 2026</div>
     </div>
   </div>
