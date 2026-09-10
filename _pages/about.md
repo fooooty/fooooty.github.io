@@ -29,10 +29,21 @@ latest_posts:
 - AI Agents
 - Vision-Language Models (VLMs)
 
-## Education & Experience
+## Experience
+
+**KT** — AI Research Intern<br>
+July 2026 – August 2026 · Seoul, South Korea · Hybrid
+
+- Worked on multi-agent collaboration.
+
+## Education
 
 **Korea Advanced Institute of Science and Technology (KAIST)**<br>
-M.S. Student, [Advanced Machine Intelligence Lab](https://ami.kaist.ac.kr/)<br>
-September 2025 – Present
+M.S. in Computer Science, [Advanced Machine Intelligence Lab](https://ami.kaist.ac.kr/)<br>
+September 2025 – August 2027 (expected)
+
+**Hanyang University**<br>
+B.S. in Materials Science and Engineering<br>
+February 2020 – August 2025
 
 For a complete academic and professional history, please visit my [LinkedIn profile](https://www.linkedin.com/in/daisyson01/).
