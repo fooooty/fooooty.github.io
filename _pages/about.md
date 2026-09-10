@@ -63,21 +63,6 @@ latest_posts:
     padding-bottom: 0.65rem;
   }
 
-  .interest-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.65rem;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  .interest-list li {
-    background: var(--global-code-bg-color);
-    border-radius: 999px;
-    padding: 0.45rem 0.85rem;
-  }
-
   .profile-entry,
   .publication-entry {
     margin-bottom: 2rem;
@@ -155,11 +140,12 @@ latest_posts:
 
 <div class="about-intro">
   <p>
-    I am an M.S. student in Computer Science at KAIST, working in the
-    <a href="https://ami.kaist.ac.kr/">Advanced Machine Intelligence Lab (AMI Lab)</a>.
+    I am an M.S. student in Computer Science at KAIST, where I work on AI agents and multimodal perception in the
+    <a href="https://ami.kaist.ac.kr/">Advanced Machine Intelligence Lab (AMI Lab)</a>, advised by
+    <a href="https://pure.kaist.ac.kr/en/persons/tae-hyun-oh/">Prof. Tae-Hyun Oh</a>.
   </p>
   <p>
-    I am interested in AI agents and vision-language models. My research aims to build agents that can reliably perceive, reason about, and interact with complex visual environments. I approach this through interactive GUI grounding, robust spatial understanding, and efficient learning methods for multimodal agents. I am excited to explore how intelligent agents can better understand visual context and take reliable actions in real-world interfaces.
+    I am interested in AI agents, vision-language models, computer vision, and multimodal learning. My research focuses on enabling intelligent agents to understand visual context and interact reliably with complex real-world interfaces.
   </p>
 </div>
 
@@ -168,14 +154,6 @@ latest_posts:
   <a href="https://github.com/fooooty" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a>
   <a href="https://www.linkedin.com/in/daisyson01/" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
 </div>
-
-<section class="about-section">
-  <h2>Research Interests</h2>
-  <ul class="interest-list">
-    <li>AI Agents</li>
-    <li>Vision-Language Models (VLMs)</li>
-  </ul>
-</section>
 
 <section class="about-section">
   <h2>Experience</h2>
