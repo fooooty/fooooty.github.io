@@ -25,6 +25,16 @@ latest_posts:
 ---
 
 <style>
+  body {
+    --global-theme-color: #176b87;
+    --global-hover-color: #0f5268;
+  }
+
+  html[data-theme="dark"] body {
+    --global-theme-color: #63b6c9;
+    --global-hover-color: #8acddd;
+  }
+
   .post-title {
     font-weight: 700;
   }
@@ -96,6 +106,37 @@ latest_posts:
   .entry-meta {
     color: var(--global-text-color-light);
     line-height: 1.6;
+  }
+
+  .venue-line {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.65rem;
+  }
+
+  .venue-badge {
+    background: color-mix(in srgb, var(--global-theme-color) 14%, transparent);
+    border: 1px solid color-mix(in srgb, var(--global-theme-color) 35%, transparent);
+    border-radius: 999px;
+    color: var(--global-theme-color);
+    font-size: 0.92rem;
+    font-weight: 700;
+    padding: 0.28rem 0.7rem;
+  }
+
+  .venue-type {
+    color: var(--global-text-color-light);
+    font-size: 0.92rem;
+    font-weight: 600;
+  }
+
+  .workshop-name {
+    color: var(--global-text-color-light);
+    font-size: 0.92rem;
+    line-height: 1.5;
+    margin-top: 0.55rem;
   }
 
   .publication-group {
@@ -189,7 +230,7 @@ latest_posts:
     <div class="publication-entry">
       <div class="entry-title"><a href="{{ '/projects/igg/' | relative_url }}">IGG: A Benchmark for Interactive GUI Grounding under Visibility Constraints</a></div>
       <div class="entry-authors"><a class="author-link" href="https://www.linkedin.com/in/ks-kim/">Kyeongseon Kim*</a>, <strong>Jiyeon Son*</strong>, Tae-Hyun Oh</div>
-      <div class="entry-meta">EMNLP 2026 · Main Conference</div>
+      <div class="venue-line"><span class="venue-badge">EMNLP 2026</span><span class="venue-type">Main Conference</span></div>
     </div>
   </div>
 
@@ -198,7 +239,8 @@ latest_posts:
     <div class="publication-entry">
       <div class="entry-title"><a href="https://openreview.net/pdf/879ebea95a8b126a2c27d04cd7567b9d4b2019f1.pdf">Spatially Stable GUI Grounding via Zoom Consistency Loss</a></div>
       <div class="entry-authors">Ye-Bin Moon, <strong>Jiyeon Son</strong>, Tae-Hyun Oh</div>
-      <div class="entry-meta">2nd Workshop on Compositional Learning: Safety, Interpretability, and Agents · ICML 2026</div>
+      <div class="venue-line"><span class="venue-badge">ICML 2026 Workshop</span></div>
+      <div class="workshop-name">2nd Workshop on Compositional Learning: Safety, Interpretability, and Agents</div>
     </div>
   </div>
 </section>
