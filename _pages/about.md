@@ -61,5 +61,3 @@ EMNLP 2026 · Main Conference
 **[Spatially Stable GUI Grounding via Zoom Consistency Loss](https://openreview.net/pdf/879ebea95a8b126a2c27d04cd7567b9d4b2019f1.pdf)**<br>
 Ye-Bin Moon (POSTECH), **Jiyeon Son (KAIST)**, Tae-Hyun Oh (KAIST)<br>
 2nd Workshop on Compositional Learning: Safety, Interpretability, and Agents · ICML 2026
-
-For a complete academic and professional history, please visit my [LinkedIn profile](https://www.linkedin.com/in/daisyson01/).
