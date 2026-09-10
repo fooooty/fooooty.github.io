@@ -32,7 +32,7 @@ latest_posts:
 
   @media (min-width: 576px) {
     .profile.float-right {
-      margin-top: -4rem;
+      margin-top: -5rem;
     }
   }
 
@@ -174,10 +174,8 @@ latest_posts:
 <div class="about-intro">
   <p>
     I am an M.S. student in Computer Science at KAIST and a member of the
-    <a href="https://ami.kaist.ac.kr/">Advanced Machine Intelligence Lab (AMI Lab)</a>.
-  </p>
-  <p>
-    I am advised by <a href="https://pure.kaist.ac.kr/en/persons/tae-hyun-oh/">Prof. Tae-Hyun Oh</a>.
+    <a href="https://ami.kaist.ac.kr/">Advanced Machine Intelligence Lab (AMI Lab)</a>, advised by
+    <a href="https://pure.kaist.ac.kr/en/persons/tae-hyun-oh/">Prof. Tae-Hyun Oh</a>.
   </p>
   <p>
     I am interested in AI agents, vision-language models, and multimodal perception. I am always open to conversations and collaborations—feel free to get in touch.
