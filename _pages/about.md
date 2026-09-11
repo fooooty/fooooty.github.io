@@ -33,6 +33,7 @@ latest_posts:
   @media (min-width: 576px) {
     .profile.float-right {
       margin-top: -5rem;
+      width: 34%;
     }
   }
 
