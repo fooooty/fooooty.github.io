@@ -229,7 +229,7 @@ latest_posts:
 
 <section class="about-section" id="publications">
   <h2>Publications</h2>
-  <div class="entry-meta">* Co-first authorship (equal contribution)<br /><sup class="author-mark">†</sup> Corresponding author</div>
+  <div class="entry-meta">* Equal contribution<br /><sup class="author-mark">†</sup> Corresponding author</div>
 
   <div class="publication-group">
     <h3>Conference Papers</h3>
