@@ -123,6 +123,13 @@ latest_posts:
     line-height: 1.6;
   }
 
+  .author-mark {
+    color: inherit;
+    font-size: 0.68em;
+    line-height: 0;
+    vertical-align: super;
+  }
+
   .venue-line {
     color: var(--global-theme-color);
     font-size: 0.95rem;
@@ -222,13 +229,13 @@ latest_posts:
 
 <section class="about-section" id="publications">
   <h2>Publications</h2>
-  <div class="entry-meta">* Co-first authorship (equal contribution)<br />† Corresponding author</div>
+  <div class="entry-meta">* Co-first authorship (equal contribution)<br /><sup class="author-mark">†</sup> Corresponding author</div>
 
   <div class="publication-group">
     <h3>Conference Papers</h3>
     <div class="publication-entry">
       <div class="entry-title"><a href="{{ '/projects/igg/' | relative_url }}">IGG: A Benchmark for Interactive GUI Grounding under Visibility Constraints</a></div>
-      <div class="entry-authors"><a class="author-link" href="https://www.linkedin.com/in/ks-kim/">Kyeongseon Kim*</a>, <strong>Jiyeon Son*</strong>, Tae-Hyun Oh†</div>
+      <div class="entry-authors"><a class="author-link" href="https://www.linkedin.com/in/ks-kim/">Kyeongseon Kim*</a>, <strong>Jiyeon Son*</strong>, Tae-Hyun Oh<sup class="author-mark">†</sup></div>
       <div class="venue-line"><span class="venue-name">EMNLP 2026 · Main Conference</span></div>
     </div>
   </div>
@@ -237,7 +244,7 @@ latest_posts:
     <h3>Workshop Papers</h3>
     <div class="publication-entry">
       <div class="entry-title"><a href="https://openreview.net/pdf/879ebea95a8b126a2c27d04cd7567b9d4b2019f1.pdf">Spatially Stable GUI Grounding via Zoom Consistency Loss</a></div>
-      <div class="entry-authors">Ye-Bin Moon, <strong>Jiyeon Son</strong>, Tae-Hyun Oh†</div>
+      <div class="entry-authors">Ye-Bin Moon, <strong>Jiyeon Son</strong>, Tae-Hyun Oh<sup class="author-mark">†</sup></div>
       <div class="venue-line"><span class="venue-name">ICML 2026 · 2nd Workshop on Compositional Learning: Safety, Interpretability, and Agents</span></div>
     </div>
   </div>
