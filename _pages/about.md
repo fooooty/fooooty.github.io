@@ -249,7 +249,7 @@ latest_posts:
   <div class="publication-group">
     <h3>Workshop Papers</h3>
     <div class="publication-entry">
-      <div class="entry-title"><a href="https://openreview.net/pdf/879ebea95a8b126a2c27d04cd7567b9d4b2019f1.pdf">Spatially Stable GUI Grounding via Zoom Consistency Loss</a></div>
+      <div class="entry-title"><a href="{{ '/assets/pdf/Spatially_Stable_GUI_Grounding.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Spatially Stable GUI Grounding via Zoom Consistency Loss</a></div>
       <div class="entry-authors">Ye-Bin Moon, <strong>Jiyeon Son</strong>, Tae-Hyun Oh<sup class="author-mark">†</sup></div>
       <div class="venue-line"><span class="venue-name">ICML 2026 · 2nd Workshop on Compositional Learning: Safety, Interpretability, and Agents</span></div>
     </div>
