@@ -10,8 +10,8 @@ nav: false
 **Kyeongseon Kim\*, Jiyeon Son\*, Tae-Hyun Oh**  
 EMNLP 2026 · Main Conference
 
-_Project page coming soon._
+<meta http-equiv="refresh" content="0; url=https://igg-bench.github.io/">
 
-We are preparing the paper, code, dataset, and additional project materials. Please check back soon for updates.
+The project page is at [igg-bench.github.io](https://igg-bench.github.io/).
 
 [← Back to Publications]({{ '/#publications' | relative_url }})

@@ -242,7 +242,7 @@ latest_posts:
       <div class="entry-title"><a href="{{ '/assets/pdf/IGG_A_Benchmark_for_Interactive_GUI_Grounding.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">IGG: A Benchmark for Interactive GUI Grounding under Visibility Constraints</a></div>
       <div class="entry-authors"><a class="author-link" href="https://www.linkedin.com/in/ks-kim/">Kyeongseon Kim*</a>, <strong>Jiyeon Son*</strong>, Tae-Hyun Oh<sup class="author-mark">†</sup></div>
       <div class="venue-line"><span class="venue-name">EMNLP 2026 · Main Conference</span></div>
-      <div class="project-link"><a href="{{ '/projects/igg/' | relative_url }}">Project page (coming soon) ↗</a></div>
+      <div class="project-link"><a href="https://igg-bench.github.io/" target="_blank" rel="noopener noreferrer">Project page ↗</a></div>
     </div>
   </div>
 
